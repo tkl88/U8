@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservar Mesa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="horario.html">Horario</a></li>
+        <li><a href="galeria.html">Galeria</a></li>
+        <li><a class="thisPage" href="reservar-mesa.html">Reservar mesa</a></li>
+        <li><a href="ubicacion.html">Ubicacion</a></li>
+    </ul>
+    </nav>
+    <main>
+        <h3>
+           ¿Tiene preguntas o solicitudes especiales con respecto a su visita? Entonces le invitamos a
+contactarnos en nuestro número de teléfono<br><u>08-0880 808</u>
+        </h3>
+
+    </main>
+    <article>
+        <img src="img/breakfast.jpg" id="bord" alt="bord">
+    </article>
+    <aside>
+        <form id="booking">
+            <fieldset id="antalPersonal">
+                <legend>
+                    Reservar Mesa
+                </legend>
+                <div>
+                    <label for="reserva"> Fecha
+                        <input type="date" name="arrival" required id="reserva">
+                    </label>
+                    <label for="Personer">
+                        Nro de Personas
+                        <select name="nrOfguests" id="Personer">
+                            <option value="1" selected>1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                        </select>
+                    </label>
+                </div>
+                <div id="send">
+                    <input type="submit" value="Reservar">
+                </div>
+
+            </fieldset>
+        </form>
+    </aside>
+    <footer>
+        <div class="wrapper3">
+            <div class="fot1">
+                <div>
+    <h3><b>Calle 30</b><br>Av Orinoco <br>6206 Maturín </h3>
+            </div>
+            <div>
+                <h3><b>Nro de Contacto</b><br>08-8088080 <br>Rekans@restaurang.com</h3>
+                        </div>
+                        <div>
+                            <h3><b>Abierto de lunes a viernes</b><br>11-22 </h3>
+                                    </div>
+                                    <div>
+                                        <h3><b>Abierto fin de semana</b><br>12-23</h3>
+                                                </div>
+                                            </div>
+                                        
+            </div>
+        </footer>
+        
+</body>
+</html>
